@@ -54,25 +54,27 @@ app/
 │
 ├── main.py
 │
-├── media_class.py
-├── customer_class.py
-│
-├── schemas/
-│   ├── item_schemas.py
-│   └── customer_schemas.py
-│
-├── repositories/
-│   ├── item_repo.py
-│   ├── customer_repo.py
-│   └── loan_repo.py
-│
-├── services/
-│   ├── library_service.py
-│   └── customer_service.py
-│
 ├── mappers/
-│   ├── item_mapper.py
-│   └── customer_mapper.py
+│   ├── customer_mapper.py
+│   └── item_mapper.py
+|
+├── models/
+│   ├── customer.py
+│   └── item.py
+|
+├── repositories/
+│   ├── customer_repo.py
+│   ├── items_repo.py
+|	└── loans_repo.py
+│
+|├── schemas/
+│   ├── customer_schema.py
+│   └── item_schema.py
+|
+|├── services/
+│   ├── customer_factory.py
+│   ├── item_factory.py
+|	└── library_service.py
 ```
 
 ---
