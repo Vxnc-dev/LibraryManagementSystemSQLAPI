@@ -57,20 +57,16 @@ app/
 ├── mappers/
 │   ├── customer_mapper.py
 │   └── item_mapper.py
-|
 ├── models/
 │   ├── customer.py
 │   └── item.py
-|
 ├── repositories/
 │   ├── customer_repo.py
 │   ├── items_repo.py
 |	└── loans_repo.py
-│
 |├── schemas/
 │   ├── customer_schema.py
 │   └── item_schema.py
-|
 |├── services/
 │   ├── customer_factory.py
 │   ├── item_factory.py
