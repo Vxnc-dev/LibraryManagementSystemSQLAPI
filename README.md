@@ -80,7 +80,7 @@ app/
 Clone repository:
 
 ```bash
-git clone <repo-url>
+git clone <https://github.com/Vxnc-dev/LibraryManagementSystemSQLAPI.git>
 cd media-library-api
 ```
 
