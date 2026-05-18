@@ -64,10 +64,10 @@ app/
 │   ├── customer_repo.py
 │   ├── items_repo.py
 |	└── loans_repo.py
-|├── schemas/
+├── schemas/
 │   ├── customer_schema.py
 │   └── item_schema.py
-|├── services/
+├── services/
 │   ├── customer_factory.py
 │   ├── item_factory.py
 |	└── library_service.py
